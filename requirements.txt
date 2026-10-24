@@ -1,0 +1,6 @@
+streamlit>=1.55,<2.0
+matplotlib>=3.7,<4.0
+Pillow>=10.0,<13.0
+pytesseract>=0.3.10,<0.4
+rapidocr>=3.10,<4.0
+onnxruntime>=1.18,<2.0

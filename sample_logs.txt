@@ -1,0 +1,9 @@
+2026-10-24T09:10:00Z api-1 INFO Started HTTP server on port 8080
+2026-10-24T09:10:04Z api-1 INFO GET /health status=200 duration_ms=4
+2026-10-24T09:10:07Z api-1 WARN retrying database connection after timeout
+2026-10-24T09:10:09Z api-1 ERROR connection refused to database db.internal:5432
+2026-10-24T09:10:10Z kernel: Out of memory: Killed process 1842 (worker)
+2026-10-24T09:10:12Z nginx ERROR upstream timed out while reading response header
+2026-10-24T09:10:14Z sshd WARNING Failed password for invalid user admin from 203.0.113.12 port 49100
+2026-10-24T09:10:18Z systemd INFO Started Session 18 of User deploy
+2026-10-24T09:10:20Z app ERROR TLS certificate verify failed for payments.example.net
