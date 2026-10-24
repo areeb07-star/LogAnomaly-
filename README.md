@@ -165,18 +165,6 @@ Run the tests from the project root:
 python -m pytest
 ```
 
-## Deployment
-
-LogAnomaly is hosted on Streamlit Community Cloud.
-
-**Live URL:** https://5btjft2gtk7rtzpiwmtw8f.streamlit.app/
-
-To publish updates:
-
-1. Commit your changes to the connected GitHub repository.
-2. Push the changes to the configured branch.
-3. Wait for Streamlit Community Cloud to rebuild the application.
-4. Reboot the app from its management menu if a restart is necessary.
 
 ## Limitations
 
