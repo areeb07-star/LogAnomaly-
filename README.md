@@ -193,11 +193,6 @@ Contributions and suggestions are welcome.
 3. Make and test your changes.
 4. Submit a pull request describing the improvement.
 
-## License
-
-No license has been specified yet. Add a `LICENSE` file before distributing the project under an open-source license.
-
----
 
 <p align="center">
   <strong>LogAnomaly</strong><br>
