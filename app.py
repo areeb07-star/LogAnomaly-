@@ -300,8 +300,29 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-st.info("**How it works:** LogAnomaly reads your text locally, learns common three-word sequences with an N-gram model, checks severity and system patterns, then explains what each finding may mean. It does not send your files to a hosted model.")
+how_bg = "#10213b" if THEME == "Dark" else "#e7f3fb"
+how_text = "#f4f8fc" if THEME == "Dark" else "#155a82"
 
+st.markdown(
+    f"""
+    <div style="background:{how_bg}; color:{how_text};
+                padding:16px; border-radius:10px;
+                border:1px solid #28384d; line-height:1.6;">
+        <b style="color:{how_text};">How it works:</b>
+        <span style="color:{how_text};">
+            LogAnomaly reads your text locally, learns common three-word
+            sequences with an N-gram model, checks severity and system
+            patterns, then explains what each finding may mean.
+            It does not send your files to a hosted model.
+        </span>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+st.markdown('<div class="section-heading"><span class="section-icon section-cyan">↥</span><div class="section-copy"><div class="section-kicker">Step 1</div><div class="section-title">Add your logs</div></div></div>', unsafe_allow_html=True)
+
+st.markdown('<p class="step-note">Upload text files or screenshots, or paste log lines below. Screenshot text is read automatically and remains editable.</p>', unsafe_allow_html=True)
 st.markdown('<div class="section-heading"><span class="section-icon section-cyan">↥</span><div class="section-copy"><div class="section-kicker">Step 1</div><div class="section-title">Add your logs</div></div></div>', unsafe_allow_html=True)
 st.markdown('<p class="step-note">Upload text files or screenshots, or paste log lines below. Screenshot text is read automatically and remains editable.</p>', unsafe_allow_html=True)
 
