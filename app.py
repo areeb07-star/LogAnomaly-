@@ -321,9 +321,6 @@ st.markdown(
 )
 
 st.markdown('<div class="section-heading"><span class="section-icon section-cyan">↥</span><div class="section-copy"><div class="section-kicker">Step 1</div><div class="section-title">Add your logs</div></div></div>', unsafe_allow_html=True)
-
-st.markdown('<p class="step-note">Upload text files or screenshots, or paste log lines below. Screenshot text is read automatically and remains editable.</p>', unsafe_allow_html=True)
-st.markdown('<div class="section-heading"><span class="section-icon section-cyan">↥</span><div class="section-copy"><div class="section-kicker">Step 1</div><div class="section-title">Add your logs</div></div></div>', unsafe_allow_html=True)
 st.markdown('<p class="step-note">Upload text files or screenshots, or paste log lines below. Screenshot text is read automatically and remains editable.</p>', unsafe_allow_html=True)
 
 uploaded_files = st.file_uploader(
